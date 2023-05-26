@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.content {
+    width: 35rem;
+    height: 35rem;
+    color: #fff;
+    background-color: #282D35;
+    font-family: 'Inter', sans-serif;
+}
+
+.content {
+    background-image: url(./assets/reactjs-icon2.png);
+    background-repeat: no-repeat;
+    background-position: right 65%;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1.4em;
+    background-color: #21222A;
+}
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 30px;
+}
+
+.logo-container h3 {
+    color: #61DAFB;
+    font-size: 1.4rem;
+    margin-left: 0.5rem;
+}
+
+.navBar h4 {
+    color: #DEEBF8;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* main content */
+
+main h1 {
+    color: #fff;
+    font-size: 39px;
+    font-weight: 600;
+    margin: 2.5rem 0 2rem 1.5rem;
+}
+
+.facts-list {
+    display: block;
+    margin: 0 0 0 3.5rem;
+}
+
+.facts-list li {
+    font-size: 16px;
+    color: #fff;
+    line-height: 2;
+}
+
+.facts-list li::marker {
+    color: #61DAFB;
+    font-size: 1.4rem;
+}
+
+/* media queries */
+
+@media (max-width: 576px) {
+
+    .content {
+        width: 21rem;
+        height: auto;
+    }
+
+    .navBar h4 {
+        color: #DEEBF8;
+        font-weight: 600;
+        font-size: 14px;
+        margin-left: 1.5rem;
+    }
+}
