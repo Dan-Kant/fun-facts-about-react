@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/fun-facts-about-react/static/css/main.f69bb6f4.css",
+    "main.js": "/fun-facts-about-react/static/js/main.f13385c0.js",
+    "static/media/react.svg": "/fun-facts-about-react/static/media/react.6d4dd5dfc6163bdfcfe520bd6bef1a6a.svg",
+    "index.html": "/fun-facts-about-react/index.html",
+    "main.f69bb6f4.css.map": "/fun-facts-about-react/static/css/main.f69bb6f4.css.map",
+    "main.f13385c0.js.map": "/fun-facts-about-react/static/js/main.f13385c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f69bb6f4.css",
+    "static/js/main.f13385c0.js"
+  ]
+}
